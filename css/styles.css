@@ -1,0 +1,201 @@
+body {
+    font-family: 'Quicksand', sans-serif; 
+    background-color: plum;
+    padding: 0;
+    margin: 0;
+}
+
+#about_me {
+    background-color: palegreen;
+    border: solid palegreen; 
+}
+
+#work {
+    background-color: powderblue;
+    border: solid powderblue;
+}
+
+#contact {
+    background-color:dodgerblue;
+    border: dodgerblue;
+    padding: 3rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-basis: 10rem;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    color:rgb(43, 1, 43); 
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    background-color: purple;
+}
+
+nav a {
+    text-decoration: none;
+    color: seashell;
+}
+
+nav a:hover {
+    color: steelblue;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    justify-content: right;
+    font-size: 1.2rem;
+}
+
+nav li {
+    padding: 1em 4em;     
+    text-align: center;
+    font-weight: bold;
+}
+
+header div {
+    background-image: url(../img/ladesiempreflipped.png);
+    background-attachment:fixed;
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 18rem 0;    
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0 1rem;
+    color: rgb(247, 222, 85);
+    font-weight: bold;
+}
+
+#home img {
+    float: right;
+    padding-right: 3rem;
+    padding: 1rem;
+}
+
+header p {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0 1rem;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 2rem 2rem;
+}
+ 
+p, form{
+    margin: 0;
+    padding: 0 2rem;
+}
+
+div {
+    margin: 12rem 0 12rem 0; 
+}
+
+iframe {
+    float: right;
+}
+
+div::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#work ul {
+    justify-content: center;
+    flex-flow: row;
+}
+
+#work li {
+    padding: 3rem; 
+    text-align: center;
+}
+
+#work a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(43, 1, 43);
+}
+
+#work a:hover {
+    color: seashell;
+}
+
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: flex;
+    flex-flow: row;
+    flex-basis: 45%;
+    margin: 1rem 0 1rem 0;
+}
+
+textarea {
+    resize: none; 
+    border: 2px solid slategray; 
+    margin-bottom: 2rem;
+}
+
+input {
+    margin-left: 5px;
+    border: 2px solid slategray; 
+}
+
+#email {
+    margin-left: 10px;
+}
+
+.my_email {
+    text-decoration: none;
+    color: rgb(43, 1, 43);
+}
+
+textarea:active, input:hover {
+    border-color: purple;
+}
+
+textarea:hover, textarea:hover {
+    border-color: purple;
+}
+
+textarea::placeholder {
+    font-family: 'Quicksand', sans-serif; 
+}
+
+.social_media {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 0 0 5rem 0;
+    flex-basis: 20%;
+    margin-top: 5rem;
+}
+
+.social_media li {
+    text-align: center;
+    padding: 0 4rem;
+}
+
+.facebook, .twitter {
+    margin-top: 5px;
+}
